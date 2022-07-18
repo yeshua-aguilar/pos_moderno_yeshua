@@ -22,13 +22,13 @@ class Database extends PDO
       	parent::__construct($dsn, $username, $password, $options);
    	}
 
-   	public function prepare($statement, $option = array())
-	{
-		$this->statement = $statement;
-		$this->option = $option;
-		$this->db = parent::prepare($this->statement, $this->option);
-		return($this);
-	}
+   	// public function prepare($statement, $option = array())
+	// {
+	// 	$this->statement = $statement;
+	// 	$this->option = $option;
+	// 	$this->db = parent::prepare($this->statement, $this->option);
+	// 	return($this);
+	// }
 
 	public function execute($args = null)
 	{
@@ -69,8 +69,8 @@ class Database extends PDO
 		return $this->db->rowCount();
 	}
 
-	public function lastInsertId($seqname = NULL) 
-	{
-		return parent::lastInsertId($seqname);
-	}
+	// public function lastInsertId($seqname = NULL) 
+	// {
+	// 	return parent::lastInsertId($seqname);
+	// }
 }
