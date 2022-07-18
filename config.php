@@ -2,11 +2,11 @@
 define('INSTALLED', true);
 
 	$sql_details = array(
-'host' => 'containers-us-west-75.railway.app',
+'host' => 'containers-us-west-66.railway.app',
 'db' => 'railway',
 'user' => 'root',
-'pass' => 'R9fvaDrgLttocsmEtpxh',
-'port' => '7228'
+'pass' => 'WE3LFAvhGY6IwXWiONZ1',
+'port' => '6633'
 	);
 
 
