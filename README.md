@@ -1,9 +1,9 @@
 # Modern POS - Point of Sale with Stock Management System
 
-## Designed and Developed by Yeshua
+## Designed and Developed by Yeshunator
 
 ## yeshunator12@gmail.com
-## Contact +51912023557
+## Contact
 
 
 ## Exclusively on Evanto Codecanyon
