@@ -48,7 +48,7 @@ class Language
 			$statement = db()->prepare("SELECT `lang_key`, `lang_value` FROM `language_translations` WHERE `lang_id` = ?");
 			$statement->execute(array($this->lang_id));
 			foreach ($statement->fetchAll(PDO::FETCH_ASSOC) as $value) {
-				$this->data[trim($value['lang_key'])] = trim($value['lang_value']);
+				// $this->data[trim($value['lang_key'])] = trim($value['lang_value']);
 			}
 		}
 	}
